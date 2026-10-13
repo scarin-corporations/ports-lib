@@ -13,14 +13,14 @@ Living library of projects bringing console games to computers. The interface is
 |---:|---|---:|---|---|
 | 1 | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) | 5,163 | 2026-06-29 | Candidate |
 | 2 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,416 | 2026-10-10 | Candidate |
-| 3 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 1,668 | 2026-07-05 | Candidate |
-| 4 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,626 | 2026-10-12 | Candidate |
-| 5 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 1,050 | 2026-10-13 | Candidate |
+| 3 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 1,669 | 2026-07-05 | Candidate |
+| 4 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,629 | 2026-10-12 | Candidate |
+| 5 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 1,055 | 2026-10-13 | Candidate |
 | 6 | [rexglue/rexglue-sdk](https://github.com/rexglue/rexglue-sdk) | 1,049 | 2026-10-02 | Candidate |
 | 7 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 877 | 2026-10-07 | Candidate |
 | 8 | [SlickAmogus/silent-hill-decomp](https://github.com/SlickAmogus/silent-hill-decomp) | 670 | 2026-10-13 | Candidate |
 | 9 | [sonicnext-dev/MarathonRecomp](https://github.com/sonicnext-dev/MarathonRecomp) | 663 | 2026-10-13 | Candidate |
-| 10 | [arcanite24/pinyon-shift](https://github.com/arcanite24/pinyon-shift) | 461 | 2026-10-13 | Candidate |
+| 10 | [arcanite24/pinyon-shift](https://github.com/arcanite24/pinyon-shift) | 463 | 2026-10-13 | Candidate |
 <!-- END LIVE CATALOG -->
 
 ## Development
