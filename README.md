@@ -20,7 +20,7 @@ Browse [games by title](https://scarin-corporations.github.io/ports-lib/web/game
 | 3 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,417 | 2026-10-10 | Candidate |
 | 4 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 1,669 | 2026-07-05 | Candidate |
 | 5 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,632 | 2026-10-12 | Reviewed |
-| 6 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 1,061 | 2026-10-13 | Candidate |
+| 6 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 1,062 | 2026-10-13 | Candidate |
 | 7 | [rexglue/rexglue-sdk](https://github.com/rexglue/rexglue-sdk) | 1,048 | 2026-10-02 | Candidate |
 | 8 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 878 | 2026-10-07 | Candidate |
 | 9 | [SlickAmogus/silent-hill-decomp](https://github.com/SlickAmogus/silent-hill-decomp) | 670 | 2026-10-13 | Candidate |
