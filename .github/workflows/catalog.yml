@@ -18,9 +18,11 @@ jobs:
       contents: write
       pages: write
     outputs:
-      pages_configured: ${{ steps.pages.outcome == 'success' }}
+      pages_configured: ${{ steps.page_status.outputs.enabled }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.ref || 'refs/heads/main' }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -30,6 +32,10 @@ jobs:
         with:
           enablement: false
         continue-on-error: true
+      - name: Record Pages readiness
+        id: page_status
+        if: steps.pages.outcome == 'success'
+        run: echo "enabled=true" >> "$GITHUB_OUTPUT"
       - name: Report Pages setup requirement
         if: github.event_name != 'pull_request' && steps.pages.outcome != 'success'
         run: echo 'Pages is not enabled or cannot be configured by GITHUB_TOKEN. Enable Settings > Pages > Build and deployment > GitHub Actions as an organization owner.'
@@ -39,10 +45,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/sync.py
+      - name: Refresh README chart and ranking
+        if: github.event_name != 'pull_request'
+        run: python scripts/update_readme.py
       - name: Persist successful observations
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |
-          git add data/catalog.json
+          git add data/catalog.json data/top-stars.svg README.md
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
