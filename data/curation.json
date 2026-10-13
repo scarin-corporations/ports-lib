@@ -1,9 +1,43 @@
 {
-  "projects": [],
+  "projects": [
+    {"name":"hedge-dev/UnleashedRecomp","kind":"port","consoles":["Xbox 360"],"platforms":["Windows","Linux"],"evidence":"https://github.com/hedge-dev/UnleashedRecomp#readme"},
+    {"name":"LoreanXavier/pt-pc","kind":"port","consoles":["PS4"],"platforms":["Windows","Linux","macOS"],"evidence":"https://github.com/LoreanXavier/pt-pc#readme"},
+    {"name":"sonicnext-dev/MarathonRecomp","kind":"recompilation","consoles":["Xbox 360"],"platforms":["Windows","Linux","macOS"],"evidence":"https://github.com/sonicnext-dev/MarathonRecomp#readme"},
+    {"name":"arcanite24/pinyon-shift","kind":"recompilation","consoles":["Xbox 360"],"platforms":["Windows","Linux","macOS","Android alpha"],"evidence":"https://github.com/arcanite24/pinyon-shift#readme"},
+    {"name":"fabioap-cpu/Forza-Horizon-2-Recomp","kind":"recompilation","consoles":["Xbox 360"],"platforms":["Windows"],"evidence":"https://github.com/fabioap-cpu/Forza-Horizon-2-Recomp#readme"},
+    {"name":"deivid22srk/ForzaHorizon2Recomp-Android","kind":"recompilation","consoles":["Xbox 360"],"platforms":["Android"],"evidence":"https://github.com/deivid22srk/ForzaHorizon2Recomp-Android#readme"},
+    {"name":"Alexbeav/forza-motorsport-2-recompilation","kind":"recompilation","consoles":["Xbox 360"],"platforms":["Windows"],"evidence":"https://github.com/Alexbeav/forza-motorsport-2-recompilation#readme"},
+    {"name":"FableCraze/GoW3R_Windows_Port","kind":"port","consoles":["PS4"],"platforms":["Windows"],"evidence":"https://github.com/FableCraze/GoW3R_Windows_Port#readme"},
+    {"name":"faligame/lost-odyssey-hd-remaster","kind":"recompilation","consoles":["Xbox 360"],"platforms":["Windows"],"evidence":"https://github.com/faligame/lost-odyssey-hd-remaster#readme"},
+    {"name":"LittleBitUA/DownpourRecomp","kind":"recompilation","consoles":["Xbox 360"],"platforms":["Windows"],"evidence":"https://github.com/LittleBitUA/DownpourRecomp#readme"},
+    {"name":"florinp93/hells-gate-recomp","kind":"recompilation","consoles":["Xbox 360"],"platforms":["Windows"],"evidence":"https://github.com/florinp93/hells-gate-recomp#readme"}
+  ],
   "excluded": [],
   "queries": [
-    "ps3 recompilation", "ps4 recompilation", "xbox recompilation",
-    "ps3 native port", "ps4 native port", "xbox native port",
-    "topic:static-recompilation", "topic:game-port"
+    {"q":"PS3 recompilation","sort":"stars"},
+    {"q":"PlayStation 3 recompilation","sort":"stars"},
+    {"q":"PS3 PC port","sort":"stars"},
+    {"q":"PS3 native PC port","sort":"stars"},
+    {"q":"PS4 recompilation","sort":"stars"},
+    {"q":"PlayStation 4 recompilation","sort":"stars"},
+    {"q":"PS4 PC port","sort":"stars"},
+    {"q":"PS4 native PC port","sort":"stars"},
+    {"q":"Xbox recompilation","sort":"stars"},
+    {"q":"Xbox game recompilation","sort":"stars"},
+    {"q":"Xbox native PC port","sort":"stars"},
+    {"q":"Xbox 360 static recompilation","sort":"stars"},
+    {"q":"Xbox 360 recompilation","sort":"stars"},
+    {"q":"Xbox 360 PC port","sort":"stars"},
+    {"q":"Xbox 360 recompiled game","sort":"stars"},
+    {"q":"XenonRecomp","sort":"stars"},
+    {"q":"PS3Recomp","sort":"stars"},
+    {"q":"topic:static-recompilation","sort":"stars"},
+    {"q":"topic:game-port","sort":"stars"},
+    {"q":"PS3 recompilation pushed:>=2025-01-01","sort":"updated"},
+    {"q":"PS4 recompilation pushed:>=2025-01-01","sort":"updated"},
+    {"q":"Xbox recompilation pushed:>=2025-01-01","sort":"updated"},
+    {"q":"Xbox 360 static recompilation pushed:>=2025-01-01","sort":"updated"},
+    {"q":"PS4 native PC port pushed:>=2025-01-01","sort":"updated"},
+    {"q":"PS3 native PC port pushed:>=2025-01-01","sort":"updated"}
   ]
 }

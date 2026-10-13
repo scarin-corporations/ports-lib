@@ -15,6 +15,8 @@ def render(projects):
     lines = [
         '<p><a href="https://scarin-corporations.github.io/ports-lib/">Open the Ports Lib app →</a></p>',
         '',
+        f"**{len(projects):,} repositories indexed.** Search matches remain candidates until reviewed.",
+        '',
         '![Top 10 repositories by GitHub stars](data/top-stars.svg)',
         '',
         '| # | Repository | Stars | Last push | Status |',

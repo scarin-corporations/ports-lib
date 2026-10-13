@@ -1,6 +1,6 @@
 const translations = {
   'pt-BR': {
-    languageLabel: 'Idioma', contribute: 'Contribuir ↗', eyebrow: 'DESCOBERTA OPEN SOURCE', searchAria: 'Buscar repositórios', consoleAria: 'Console', platformAria: 'Plataforma', kindAria: 'Tipo', sortAria: 'Ordenação',
+    languageLabel: 'Idioma', gamesLink:'Jogos', contribute: 'Contribuir ↗', eyebrow: 'DESCOBERTA OPEN SOURCE', searchAria: 'Buscar repositórios', consoleAria: 'Console', platformAria: 'Plataforma', kindAria: 'Tipo', sortAria: 'Ordenação',
     hero: 'Jogos, além do console.', intro: 'Explore projetos que levam jogos de console ao computador. Comunidade, código aberto e novas possibilidades.',
     loading: 'Carregando catálogo…', filters: 'Filtros', search: 'Buscar jogo, projeto ou descrição…', allConsoles: 'Todos os consoles',
     allPlatforms: 'Todas as plataformas', allTypes: 'Todos os tipos', nativePort: 'Port nativo', recompilation: 'Recompilação',
@@ -14,7 +14,7 @@ const translations = {
     kinds: {port: 'Port nativo', recompilation: 'Recompilação', emulator: 'Emulador', candidate: 'Candidato · não revisado'}
   },
   en: {
-    languageLabel: 'Language', contribute: 'Contribute ↗', eyebrow: 'OPEN SOURCE DISCOVERY', searchAria: 'Search repositories', consoleAria: 'Console', platformAria: 'Platform', kindAria: 'Type', sortAria: 'Sort order',
+    languageLabel: 'Language', gamesLink:'Games', contribute: 'Contribute ↗', eyebrow: 'OPEN SOURCE DISCOVERY', searchAria: 'Search repositories', consoleAria: 'Console', platformAria: 'Platform', kindAria: 'Type', sortAria: 'Sort order',
     hero: 'Games beyond the console.', intro: 'Explore projects bringing console games to computers. Community, open source, and new possibilities.',
     loading: 'Loading catalog…', filters: 'Filters', search: 'Search games, projects, or descriptions…', allConsoles: 'All consoles',
     allPlatforms: 'All platforms', allTypes: 'All types', nativePort: 'Native port', recompilation: 'Recompilation',

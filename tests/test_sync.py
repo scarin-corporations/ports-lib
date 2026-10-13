@@ -42,12 +42,12 @@ class SyncTests(unittest.TestCase):
             root = Path(directory)
             (root / 'data').mkdir()
             review = dict(name='a/b', kind='port', consoles=['PS3'], platforms=['Linux'], evidence='https://github.com/a/b')
-            (root / 'data/curation.json').write_text(json.dumps(dict(projects=[review], excluded=['a/excluded'], queries=['test'])))
+            (root / 'data/curation.json').write_text(json.dumps(dict(projects=[review], excluded=['a/excluded'], queries=[dict(q='test', sort='stars')])))
             (root / 'data/catalog.json').write_text(json.dumps(dict(updatedAt=None, projects=[])))
             def repo(name):
                 return dict(full_name=name, html_url='https://github.com/' + name,
                             stargazers_count=10, pushed_at='2026-10-12T00:00:00Z', archived=False)
-            with patch('scripts.sync.github', side_effect=[repo('a/b'), {'items': [repo('a/b'), repo('a/new'), repo('a/excluded')]}]), patch('scripts.sync.time.sleep'):
+            with patch('scripts.sync.github', side_effect=[repo('a/b'), {'items': [repo('a/b'), repo('a/new'), repo('a/excluded')], 'total_count': 3}]), patch('scripts.sync.time.sleep'):
                 self.assertEqual(sync(root), 0)
             result = json.loads((root / 'data/catalog.json').read_text())
             projects = {p['name']: p for p in result['projects']}
@@ -57,6 +57,26 @@ class SyncTests(unittest.TestCase):
             self.assertFalse(projects['a/new']['reviewed'])
             self.assertEqual(result['discovery']['candidates'], 1)
             self.assertEqual(result['discovery']['status'], 'ok')
+
+    def test_search_paginates_past_first_hundred_results(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'data').mkdir()
+            (root / 'data/curation.json').write_text(json.dumps(dict(projects=[], excluded=[], queries=[dict(q='test', sort='stars')])))
+            (root / 'data/catalog.json').write_text(json.dumps(dict(updatedAt=None, projects=[])))
+            def repo(index):
+                name = f'a/game-{index}'
+                return dict(full_name=name, html_url='https://github.com/' + name,
+                            stargazers_count=index, pushed_at='2026-10-12T00:00:00Z', archived=False)
+            first_page = {'items': [repo(index) for index in range(100)], 'total_count': 101}
+            second_page = {'items': [repo(100)], 'total_count': 101}
+            with patch('scripts.sync.github', side_effect=[first_page, second_page]) as github, patch('scripts.sync.time.sleep'):
+                self.assertEqual(sync(root), 0)
+            result = json.loads((root / 'data/catalog.json').read_text())
+            self.assertEqual(len(result['projects']), 101)
+            self.assertEqual(result['discovery']['searches'][0]['pages'], 2)
+            self.assertEqual(result['discovery']['cappedQueries'], [])
+            self.assertEqual(github.call_count, 2)
 
 
 if __name__ == '__main__':

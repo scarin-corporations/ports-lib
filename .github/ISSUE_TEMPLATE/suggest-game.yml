@@ -1,0 +1,46 @@
+name: Suggest a game or port
+description: Add a game and a repository to the discovery and human review queue
+title: "Game suggestion: "
+labels: ["game-suggestion", "needs-review"]
+body:
+  - type: input
+    id: game
+    attributes:
+      label: Game title and release
+      placeholder: Forza Horizon (Xbox 360, 2012)
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: GitHub repository
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: source_console
+    attributes:
+      label: Original console
+      options:
+        - Xbox
+        - Xbox 360
+        - PlayStation 3
+        - PlayStation 4
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence for status and platforms
+      description: Link to repository documentation or releases. The review assistant only prepares evidence; a contributor confirms the listing.
+      placeholder: README, release, compatibility notes, tested OS...
+    validations:
+      required: true
+  - type: checkboxes
+    id: legal
+    attributes:
+      label: Content policy
+      options:
+        - label: I did not attach game files, firmware, keys, ROMs, or copyrighted assets.
+          required: true

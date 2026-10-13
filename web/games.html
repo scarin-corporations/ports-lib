@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ports Lib — Jogos</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="games.css">
+<header><a href="./" class="brand">◈ PORTS LIB</a><nav><a href="./" data-i18n="home">Início</a> <label for="language" data-i18n="languageLabel">Idioma</label> <select id="language" aria-label="Idioma"><option value="pt-BR">Português</option><option value="en">English</option></select></nav></header>
+<main><p class="eyebrow" data-i18n="eyebrow">BIBLIOTECA DE JOGOS</p><h1 data-i18n="hero">Jogos e projetos.</h1><p class="intro" data-i18n="intro">Encontre projetos por jogo e veja o estado informado pelos próprios repositórios.</p>
+<div id="status" role="status" aria-live="polite">Carregando catálogo…</div>
+<section class="controls" aria-label="Filtros"><input id="search" data-i18n-placeholder="search" placeholder="Buscar jogos…"><select id="console"><option value="" data-i18n="allConsoles">Todos os consoles</option><option>Xbox</option><option>Xbox 360</option><option>PS3</option><option>PS4</option></select><select id="state"><option value="" data-i18n="allStates">Todos os estados</option><option value="playable" data-i18n="playable">Jogável informado</option><option value="preview" data-i18n="preview">Prévia / teste</option><option value="experimental" data-i18n="experimental">Experimental</option><option value="early" data-i18n="early">Em desenvolvimento</option><option value="alpha" data-i18n="alpha">Alfa</option><option value="released" data-i18n="released">Versão publicada</option><option value="not-found" data-i18n="notFound">Projeto não encontrado</option></select></section>
+<div class="section-title"><h2 data-i18n="games">Jogos mapeados</h2><span id="count"></span></div><p class="note" data-i18n="caveat">Os estados e plataformas são declarações nos READMEs dos projetos. O Ports Lib não baixa nem testa jogos.</p>
+<section id="games" class="grid" aria-label="Jogos"></section>
+<footer data-i18n="footer">Não incluímos arquivos de jogos, ROMs ou firmware. Use apenas cópias obtidas legalmente.</footer></main><script type="module" src="games.js"></script></html>

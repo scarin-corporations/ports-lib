@@ -8,9 +8,11 @@ Decisões: começar com app web em vez de extensão; Python sem dependências pa
 
 ## Estado
 
-MVP implementado: descoberta limitada por consultas, metadados, ranking, filtros, curadoria, preservação em falhas, testes e publicação declarativa. Ativação externa depende de enviar arquivos ao GitHub e habilitar Pages/Actions. A validação real da API e os resultados de testes devem ser reportados na entrega, sem assumir implantação.
+O catálogo pesquisa termos alternativos por console, ordenação por popularidade e data recente, pagina resultados até o limite da API, salva os dados e atualiza o gráfico/tabela do README. A coleta de 2026-10-13 encontrou 651 repositórios únicos em 25 consultas, sem consultas truncadas nem erros; 640 são candidatos de busca ainda não revisados e 11 estão ligados manualmente à página `web/games.html`. As afirmações de compatibilidade vêm dos READMEs externos e não são testes do Ports Lib.
 
-Validação local: testes automatizados de ranking, candidatura sem compatibilidade inventada, preservação em falha e coleta com revisão/exclusões. A API real respondeu e o workflow gerou 154 candidatos com zero erros. O workflow de dados passou; Pages ainda não foi habilitado porque o token automático recebeu `Resource not accessible by integration` ao chamar a API de criação de site. Não foi realizado teste de navegador.
+O assistente `scripts/review_agent.py` coleta README/metadados dos projetos mapeados, extrai sinais e trechos para revisão. Sua recomendação é sempre `needs-human-review`; não aprova automaticamente, não executa código dos repositórios e não confirma que um jogo funciona. `data/curation.json` continua sendo a curadoria humana e `data/games.json` a associação por título.
+
+Validação anterior: testes automatizados de ranking, candidatura sem compatibilidade inventada, preservação em falha e coleta com revisão/exclusões. GitHub Pages está configurado; confirmação de um deploy novo deve vir da execução e do endpoint público. A API real de coleta respondeu anteriormente e o workflow de dados completou com sucesso.
 
 ## Acesso global e financiamento — 2026-10-13
 
@@ -18,14 +20,14 @@ Interface disponível em português brasileiro e inglês. Idioma fica salvo no n
 
 `.github/FUNDING.yml` aponta para a organização do projeto e `docs/SPONSORSHIP.md` documenta a ativação. A organização ainda precisa concluir inscrição, elegibilidade, dados fiscais/financeiros e aprovação no GitHub Sponsors. Não anunciar recebimento ativo antes de a página pública oferecer tiers.
 
-O token padrão de GitHub Actions não pôde criar Pages via API. O workflow segue coletando e salvando o catálogo e pula deploy quando Pages não está habilitado; um owner deve habilitar Pages em Settings → Pages → GitHub Actions.
+O workflow usa `actions/configure-pages` como sinal de prontidão e pula deploy se o Pages estiver desativado. Uma repetição de um evento antigo causou push não fast-forward porque Actions fez checkout do SHA antigo; o checkout agora usa `main` mais recente para coletas não PR.
 
 ## Próximas etapas
 
-1. Revisar candidatos e incluir evidências, jogo e estado de jogabilidade.
+1. Revisar candidatos, confirmar evidências, jogo e estado de jogabilidade.
 2. Histórico diário de estrelas para tendência real, não apenas popularidade acumulada.
 3. Validar schema de curadoria e automatizar PRs de revisão.
-4. Paginação com orçamento de API, políticas de remoção e metadados de releases.
+4. Mais consultas de descoberta com orçamento de API, políticas de remoção e metadados de releases.
 5. Testes de navegador e acessibilidade; traduções adicionais somente mediante solicitação.
 
 ## Critérios de conclusão

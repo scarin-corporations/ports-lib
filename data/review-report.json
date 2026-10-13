@@ -1,0 +1,318 @@
+{
+  "generatedAt": "2026-10-13T17:54:05.064028+00:00",
+  "reviewed": 11,
+  "requiringHumanReview": 11,
+  "failures": 0,
+  "policy": "This assistant gathers repository metadata and README evidence. It never approves a game, confirms compatibility, or runs downloaded code.",
+  "projects": [
+    {
+      "name": "hedge-dev/UnleashedRecomp",
+      "game": "Sonic Unleashed",
+      "recommendation": "needs-human-review",
+      "approved": false,
+      "evidence_url": "https://github.com/hedge-dev/UnleashedRecomp#readme",
+      "exists": true,
+      "archived": false,
+      "stars": 5163,
+      "pushedAt": "2026-06-29T11:05:43Z",
+      "license": "GPL-3.0",
+      "platforms_mentioned": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "title_mentioned": true,
+      "evidence": [
+        "Unleashed Recompiled is an unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation. The port offers Windows and Linux support with numerous built-in enhancements such as high resolut",
+        "[Check out the latest release here](https://github.com/hedge-dev/UnleashedRecomp/releases/latest).",
+        "Windows 10 (version 1909)",
+        "A modern Linux distro such as Ubuntu 22.04 LTS",
+        "3) Download [the latest release](https://github.com/hedge-dev/UnleashedRecomp/releases/latest) of Unleashed Recompiled and extract it to where you'd like the game to be installed.",
+        "Support for \"Alpha to Coverage\" Anti-Aliasing to enhance the visual result of transparent textures with hard edges.",
+        "Support for both features may also be limited on Linux.",
+        "Modern input latency reduction techniques are included to improve the game's responsiveness as much as possible, such as support for [Waitable Swap Chains](https://learn.microsoft.com/en-us/windows/uwp/gaming/reduce-latency-with-dxgi-1-3-sw"
+      ],
+      "note": "README evidence only; compatibility and playability are not tested by this agent."
+    },
+    {
+      "name": "LoreanXavier/pt-pc",
+      "game": "P.T.",
+      "recommendation": "needs-human-review",
+      "approved": false,
+      "evidence_url": "https://github.com/LoreanXavier/pt-pc#readme",
+      "exists": true,
+      "archived": false,
+      "stars": 1630,
+      "pushedAt": "2026-10-12T17:42:16Z",
+      "license": "NOASSERTION",
+      "platforms_mentioned": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "title_mentioned": true,
+      "evidence": [
+        "Your own copy of P.T. The port is built and tested with the US release, CUSA01127, as a dump folder from your console",
+        "Windows 10 or 11 (x64), Linux x86-64 with glibc 2.38 or newer (Ubuntu 24.04, Debian 13, Fedora 39, current Arch",
+        "and SteamOS), or macOS 14 or newer on an Apple silicon or Intel Mac.",
+        "A GPU and driver with Vulkan 1.3; on macOS the port brings MoltenVK, which runs Vulkan on Metal. The optional",
+        "ray-traced shadows, ambient occlusion and reflections need a GPU with Vulkan ray queries (not on macOS). DLSS needs a",
+        "GeForce RTX card; FSR and XeSS run on any recent GPU (Windows only). The settings page greys out what your machine",
+        "Download the installer from the Releases page: `P.T.PC.Port.Setup.exe` on Windows, the Linux setup binary on Linux.",
+        "Point it at your dump folder or fake PKG and at a destination folder (the default on Windows is"
+      ],
+      "note": "README evidence only; compatibility and playability are not tested by this agent."
+    },
+    {
+      "name": "sonicnext-dev/MarathonRecomp",
+      "game": "Sonic the Hedgehog (2006)",
+      "recommendation": "needs-human-review",
+      "approved": false,
+      "evidence_url": "https://github.com/sonicnext-dev/MarathonRecomp#readme",
+      "exists": true,
+      "archived": false,
+      "stars": 664,
+      "pushedAt": "2026-10-13T17:20:17Z",
+      "license": "GPL-3.0",
+      "platforms_mentioned": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "title_mentioned": true,
+      "evidence": [
+        "This recompilation is still under active development and is NOT meant for public use. Support will not be provided until an official release.",
+        "Marathon Recompiled is an unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation. The port offers Windows, Linux, and macOS support.",
+        "Windows: `%APPDATA%\\MarathonRecomp\\`",
+        "Linux: `~/.config/MarathonRecomp/`",
+        "macOS: `~/Library/Application Support/MarathonRecomp/`",
+        "Updating the game can be done by simply copying and replacing the files from a [release](https://github.com/sonicnext-dev/MarathonRecomp/releases) on top of your existing installation. **Your save data and configuration will not be lost.** ",
+        "Given it is not possible to run the game where the Flatpak is stored, the game data will be installed to `~/.var/app/io.github.sonicnext_dev.marathonrecomp/data`. The Flatpak build will only recognize this directory as valid. Feel free to r",
+        "This project does not plan to support any more platforms other than Windows, Linux and macOS at the moment. Any contributors who wish to support more platforms should do so through a fork."
+      ],
+      "note": "README evidence only; compatibility and playability are not tested by this agent."
+    },
+    {
+      "name": "arcanite24/pinyon-shift",
+      "game": "Forza Horizon",
+      "recommendation": "needs-human-review",
+      "approved": false,
+      "evidence_url": "https://github.com/arcanite24/pinyon-shift#readme",
+      "exists": true,
+      "archived": false,
+      "stars": 462,
+      "pushedAt": "2026-10-13T17:32:01Z",
+      "license": "BSD-3-Clause",
+      "platforms_mentioned": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "title_mentioned": true,
+      "evidence": [
+        "<b>The Xbox 360 release of <i>Forza Horizon</i>, recompiled to run natively on Windows, Linux, the Steam Deck and Apple silicon Macs, with an Android alpha.</b><br",
+        "Playable preview.** Expect some rendering bugs and slowdowns. The",
+        "[0.5.1 release notes](docs/releases/0.5.1.md) list what the latest release",
+        "Linux and Steam Deck.** A native Linux build, no Proton: 60 fps at 1x on",
+        "See [Linux and Steam Deck](docs/LINUX.md).",
+        "macOS on Apple silicon.** Vulkan on Metal through MoltenVK, built into",
+        "the game. See [macOS](docs/MACOS.md).",
+        "Android handhelds (alpha).** 60 fps on Snapdragon 8 Gen 2 handhelds. See"
+      ],
+      "note": "README evidence only; compatibility and playability are not tested by this agent."
+    },
+    {
+      "name": "fabioap-cpu/Forza-Horizon-2-Recomp",
+      "game": "Forza Horizon 2",
+      "recommendation": "needs-human-review",
+      "approved": false,
+      "evidence_url": "https://github.com/fabioap-cpu/Forza-Horizon-2-Recomp#readme",
+      "exists": true,
+      "archived": false,
+      "stars": 4,
+      "pushedAt": "2026-09-03T10:33:44Z",
+      "license": null,
+      "platforms_mentioned": [
+        "Windows"
+      ],
+      "title_mentioned": true,
+      "evidence": [
+        "An experimental static recompilation of the Xbox 360 version of Forza Horizon 2, using [ReXGlue](https://github.com/rexglue/rexglue-sdk) (vendored in this repository under `rexglue-sdk/`, so a single `git clone` is enough to build -- no sep",
+        "Project status",
+        "This is an **early, unresolved work in progress** -- not a working build. Being upfront about that on purpose: on the tested Windows AMD64 system, the current tree:",
+        "boots and reaches the loading screen; but",
+        "the main guest thread permanently stalls waiting on a kernel semaphore during boot, and the game never progresses past the loading screen.** The root cause has not been found yet -- confirmed (via a structured comparison against a real Xeni",
+        "Neither of those two is the reason the game doesn't reach gameplay -- that's still the open semaphore stall above.",
+        "Known issues and tested boundary",
+        "Nothing past the loading screen has been tested. Gameplay, races, career progression, and content installation are all unverified."
+      ],
+      "note": "README evidence only; compatibility and playability are not tested by this agent."
+    },
+    {
+      "name": "deivid22srk/ForzaHorizon2Recomp-Android",
+      "game": "Forza Horizon 2",
+      "recommendation": "needs-human-review",
+      "approved": false,
+      "evidence_url": "https://github.com/deivid22srk/ForzaHorizon2Recomp-Android#readme",
+      "exists": true,
+      "archived": false,
+      "stars": 2,
+      "pushedAt": "2026-09-15T17:21:17Z",
+      "license": "MIT",
+      "platforms_mentioned": [
+        "Windows",
+        "Android"
+      ],
+      "title_mentioned": true,
+      "evidence": [
+        "Forza Horizon 2 — Recompiled para Android (XenonRecomp, mobile-first)",
+        "Port nativo para Android (ARM64) de Forza Horizon 2 (Xbox 360) via",
+        "Xenos -> SPIR-V), com runtime **construído para Android desde a linha 1",
+        "— sem backend Windows/D3D12 intermediário.",
+        "Status honesto",
+        "status nativo) **+ recompilação real já executada offline**: XenonRecomp",
+        "app/ # módulo Android (Gradle): Activities, SAF, HUD, JNI",
+        "runtime/ # gráfico, áudio, input, fs, streaming p/ Android"
+      ],
+      "note": "README evidence only; compatibility and playability are not tested by this agent."
+    },
+    {
+      "name": "Alexbeav/forza-motorsport-2-recompilation",
+      "game": "Forza Motorsport 2",
+      "recommendation": "needs-human-review",
+      "approved": false,
+      "evidence_url": "https://github.com/Alexbeav/forza-motorsport-2-recompilation#readme",
+      "exists": true,
+      "archived": false,
+      "stars": 0,
+      "pushedAt": "2026-10-13T15:37:52Z",
+      "license": "BSD-3-Clause",
+      "platforms_mentioned": [
+        "Windows"
+      ],
+      "title_mentioned": true,
+      "evidence": [
+        "An experimental static recompilation of the Xbox 360 version of Forza",
+        "Project status",
+        "This is an experimental alpha source release for the European retail game:",
+        "Tested host: Windows AMD64 with Direct3D 12",
+        "The longer telemetry run used a locally patched SDK, not the unchanged release pin.",
+        "See [Current status](docs/STATUS.md) for the exact tested boundary.",
+        "Windows 10 or 11 with an x86-64-v3-capable AMD64 CPU",
+        "Visual Studio 2022 Build Tools and a Windows SDK"
+      ],
+      "note": "README evidence only; compatibility and playability are not tested by this agent."
+    },
+    {
+      "name": "FableCraze/GoW3R_Windows_Port",
+      "game": "God of War III Remastered",
+      "recommendation": "needs-human-review",
+      "approved": false,
+      "evidence_url": "https://github.com/FableCraze/GoW3R_Windows_Port#readme",
+      "exists": true,
+      "archived": false,
+      "stars": 7,
+      "pushedAt": "2026-10-12T19:02:26Z",
+      "license": "GPL-2.0",
+      "platforms_mentioned": [
+        "Windows"
+      ],
+      "title_mentioned": true,
+      "evidence": [
+        "GoW3R Windows Port",
+        "An experimental compatibility layer for running the original x86-64 code of",
+        "God of War III Remastered**, CUSA01623 update 1.02, on Windows.",
+        "Windows 10/11 x64;",
+        "The project is under active development and does not have a stable release yet.",
+        "See the [implementation status](docs/IMPLEMENTATION_STATUS.md) and",
+        "See [Building on Windows](docs/BUILDING.md) for complete environment setup",
+        "We gratefully acknowledge the work and ideas of **MrSuS60** ([GitHub](https://github.com/Mrsuss60)), creator of [bloodborne_pc_windows_port](https://github.com/Mrsuss60/bloodborne_pc_windows_port), and **deadinside28** ([GitHub](https://git"
+      ],
+      "note": "README evidence only; compatibility and playability are not tested by this agent."
+    },
+    {
+      "name": "faligame/lost-odyssey-hd-remaster",
+      "game": "Lost Odyssey",
+      "recommendation": "needs-human-review",
+      "approved": false,
+      "evidence_url": "https://github.com/faligame/lost-odyssey-hd-remaster#readme",
+      "exists": true,
+      "archived": false,
+      "stars": 65,
+      "pushedAt": "2026-10-12T11:54:55Z",
+      "license": "NOASSERTION",
+      "platforms_mentioned": [
+        "Windows",
+        "Linux"
+      ],
+      "title_mentioned": true,
+      "evidence": [
+        "Status:** v0.0.1 test build — playable, with many known bugs · source open (MIT) · bring your own discs",
+        "Lost Odyssey came out on Xbox 360 in 2007 and never left it. This project rebuilds the original game code as a real Windows program — **not an emulator** — and then gives it what a remaster would.",
+        "Compatible game version and tested hardware",
+        "Works with the **\"USA, Europe\" release of Lost Odyssey (Xbox 360), all four discs** — the multi-language one: English, Japanese, French, German, Spanish and Italian. The installer checks your discs against known hashes; the Asian edition is",
+        "Everything was tuned on **one PC** (Windows 11, Core i9-10850K, 32 GB RAM, GeForce RTX 3080 10 GB). It has not been tested on anything else, so other hardware may behave differently. Details: [Compatibility and test hardware](docs/compatibi",
+        "| **Playable** | Yes — long sessions, saves, achievements, cutscenes |",
+        "| **Linux** | Planned, not built yet |",
+        "The honest part: every crash we know of is fixed, but nobody has played this build from the first minute to the credits yet. The sharp-interface layer is newest on Vulkan, and some 3D scales (×1.25, ×1.75 and other quarter steps) have only "
+      ],
+      "note": "README evidence only; compatibility and playability are not tested by this agent."
+    },
+    {
+      "name": "LittleBitUA/DownpourRecomp",
+      "game": "Silent Hill: Downpour",
+      "recommendation": "needs-human-review",
+      "approved": false,
+      "evidence_url": "https://github.com/LittleBitUA/DownpourRecomp#readme",
+      "exists": true,
+      "archived": false,
+      "stars": 275,
+      "pushedAt": "2026-09-02T22:18:50Z",
+      "license": "BSD-3-Clause",
+      "platforms_mentioned": [
+        "Windows"
+      ],
+      "title_mentioned": true,
+      "evidence": [
+        "Play *Silent Hill: Downpour* natively on Windows, in 1080p at 60 FPS, with keyboard + mouse — no emulator required.",
+        "[![Latest release](https://img.shields.io/github/v/release/LittleBitUA/DownpourRecomp?style=for-the-badge&label=Download&color=blue)](https://github.com/LittleBitUA/DownpourRecomp/releases/latest)",
+        "[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows)](https://github.com/LittleBitUA/DownpourRecomp/releases/latest)",
+        "[⬇ Download v1.1.8 for Windows](https://github.com/LittleBitUA/DownpourRecomp/releases/latest)",
+        "v1.1.8 (hotfix, 2026-09-03)** — v1.1.7 refused to start on **Windows 10 / older Windows 11** with `Failed to get an adapter supporting Direct3D 12` ([issue #29](https://github.com/LittleBitUA/DownpourRecomp/issues/29)): the executable deman",
+        "Older release notes live in [docs/CHANGELOG.md](docs/CHANGELOG.md).",
+        "| **Use Raw Input** | ON — unaccelerated HID counts via `WM_INPUT` | OFF — Windows pointer ballistics |",
+        "This is not a \"final\" release.** v1.1.7 is a compilation of everything that has been accumulating on the dev machine since v1.1.6 — shipped as one package before something bigger that is already in progress."
+      ],
+      "note": "README evidence only; compatibility and playability are not tested by this agent."
+    },
+    {
+      "name": "florinp93/hells-gate-recomp",
+      "game": "Dante's Inferno",
+      "recommendation": "needs-human-review",
+      "approved": false,
+      "evidence_url": "https://github.com/florinp93/hells-gate-recomp#readme",
+      "exists": true,
+      "archived": false,
+      "stars": 454,
+      "pushedAt": "2026-10-12T19:18:38Z",
+      "license": null,
+      "platforms_mentioned": [
+        "Windows",
+        "Linux"
+      ],
+      "title_mentioned": true,
+      "evidence": [
+        "<img src=\"https://img.shields.io/github/v/release/florinp93/hells-gate-recomp?include_prereleases&style=for-the-badge&label=Latest%20release&color=B3261E\" alt=\"Latest release\" /",
+        "Fully playable from start to finish, including saves",
+        "Windows",
+        "Linux",
+        "x86-64:** build from source (see below), or run the Windows build under",
+        "[`docs/linux-cross-compile.md`](docs/linux-cross-compile.md).",
+        "Clang 18+ (Clang 22 on Linux), Python 3 and PowerShell 7 (`pwsh`). Windows",
+        "also needs Visual Studio 2022 with the Windows SDK."
+      ],
+      "note": "README evidence only; compatibility and playability are not tested by this agent."
+    }
+  ]
+}

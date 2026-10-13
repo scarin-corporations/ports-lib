@@ -53,6 +53,8 @@ def sync(root=ROOT):
     excluded = {n.lower() for n in config['excluded']}
     errors = []
     successes = 0
+    search_results = []
+    capped_queries = []
     for entry in config['projects']:
         try:
             repo = github('/repos/' + entry['name'])
@@ -60,13 +62,35 @@ def sync(root=ROOT):
             successes += 1
         except (urllib.error.URLError, ValueError, KeyError) as exc:
             errors.append(f"{entry['name']}: {type(exc).__name__}")
-    for query in config['queries']:
+    for item in config['queries']:
+        query = item if isinstance(item, str) else item['q']
+        sort = 'stars' if isinstance(item, str) else item.get('sort', 'stars')
         try:
             result = github('/search/repositories?' + urllib.parse.urlencode(
-                {'q': query + ' fork:false', 'sort': 'stars', 'per_page': 30}))
+                {'q': query + ' fork:false', 'sort': sort, 'per_page': 100}))
             if result.get('incomplete_results'):
                 errors.append(f'{query}: incomplete_results')
-            for repo in result['items']:
+            items = list(result['items'])
+            total = result['total_count']
+            page = 1
+            while len(items) < total and page < 10 and len(result['items']) == 100:
+                page += 1
+                try:
+                    result = github('/search/repositories?' + urllib.parse.urlencode(
+                        {'q': query + ' fork:false', 'sort': sort, 'per_page': 100, 'page': page}))
+                    successes += 1
+                    if result.get('incomplete_results'):
+                        errors.append(f'{query} page {page}: incomplete_results')
+                    items.extend(result['items'])
+                except (urllib.error.URLError, ValueError, KeyError) as exc:
+                    errors.append(f'{query} page {page}: {type(exc).__name__}')
+                    break
+                time.sleep(7)
+            returned = len(items)
+            search_results.append(dict(query=query, sort=sort, found=total, returned=returned, pages=page))
+            if total > returned:
+                capped_queries.append(query)
+            for repo in items:
                 name = repo['full_name'].lower()
                 if name not in excluded:
                     projects[name] = normalize(repo, curated.get(name))
@@ -84,7 +108,8 @@ def sync(root=ROOT):
     output = dict(updatedAt=datetime.now(timezone.utc).isoformat() if successes else previous['updatedAt'],
                   projects=sorted(projects.values(), key=lambda p: p['score'], reverse=True),
                   discovery=dict(status='partial' if errors and successes else 'failed' if errors else 'ok',
-                                 candidates=sum(not p['reviewed'] for p in projects.values())), errors=errors)
+                                 candidates=sum(not p['reviewed'] for p in projects.values()),
+                                 searches=search_results, cappedQueries=capped_queries), errors=errors)
     with tempfile.NamedTemporaryFile(mode='w', dir=target.parent, delete=False) as handle:
         json.dump(output, handle, ensure_ascii=False, indent=2)
         temporary = handle.name
