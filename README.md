@@ -9,22 +9,22 @@ Browse [games by title](https://scarin-corporations.github.io/ports-lib/web/game
 <!-- BEGIN LIVE CATALOG -->
 <p><a href="https://scarin-corporations.github.io/ports-lib/">Open the Ports Lib app →</a></p>
 
-**651 repositories indexed.** Search matches remain candidates until reviewed.
+**664 repositories indexed.** Search matches remain candidates until reviewed.
 
 ![Top 10 repositories by GitHub stars](data/top-stars.svg)
 
 | # | Repository | Stars | Last push | Status |
 |---:|---|---:|---|---|
-| 1 | [hedge-dev/XenonRecomp](https://github.com/hedge-dev/XenonRecomp) | 6,540 | 2025-08-04 | Candidate |
-| 2 | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) | 5,163 | 2026-06-29 | Reviewed |
-| 3 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,417 | 2026-10-10 | Candidate |
+| 1 | [hedge-dev/XenonRecomp](https://github.com/hedge-dev/XenonRecomp) | 6,542 | 2025-08-04 | Candidate |
+| 2 | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) | 5,170 | 2026-06-29 | Reviewed |
+| 3 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,426 | 2026-10-10 | Candidate |
 | 4 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 1,669 | 2026-07-05 | Candidate |
-| 5 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,632 | 2026-10-12 | Reviewed |
-| 6 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 1,062 | 2026-10-13 | Candidate |
-| 7 | [rexglue/rexglue-sdk](https://github.com/rexglue/rexglue-sdk) | 1,048 | 2026-10-02 | Candidate |
-| 8 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 878 | 2026-10-07 | Candidate |
-| 9 | [SlickAmogus/silent-hill-decomp](https://github.com/SlickAmogus/silent-hill-decomp) | 670 | 2026-10-13 | Candidate |
-| 10 | [sonicnext-dev/MarathonRecomp](https://github.com/sonicnext-dev/MarathonRecomp) | 664 | 2026-10-13 | Reviewed |
+| 5 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,652 | 2026-10-12 | Reviewed |
+| 6 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 1,095 | 2026-10-13 | Candidate |
+| 7 | [rexglue/rexglue-sdk](https://github.com/rexglue/rexglue-sdk) | 1,053 | 2026-10-02 | Candidate |
+| 8 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 885 | 2026-10-07 | Candidate |
+| 9 | [SlickAmogus/silent-hill-decomp](https://github.com/SlickAmogus/silent-hill-decomp) | 671 | 2026-10-13 | Candidate |
+| 10 | [sonicnext-dev/MarathonRecomp](https://github.com/sonicnext-dev/MarathonRecomp) | 666 | 2026-10-13 | Reviewed |
 <!-- END LIVE CATALOG -->
 
 ## Development

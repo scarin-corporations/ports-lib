@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T18:10:00.946699+00:00",
+  "generatedAt": "2026-10-13T22:57:18.532085+00:00",
   "reviewed": 11,
   "requiringHumanReview": 11,
   "failures": 0,
@@ -13,7 +13,7 @@
       "evidence_url": "https://github.com/hedge-dev/UnleashedRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 5163,
+      "stars": 5170,
       "pushedAt": "2026-06-29T11:05:43Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -42,7 +42,7 @@
       "evidence_url": "https://github.com/LoreanXavier/pt-pc#readme",
       "exists": true,
       "archived": false,
-      "stars": 1632,
+      "stars": 1652,
       "pushedAt": "2026-10-12T17:42:16Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
@@ -71,7 +71,7 @@
       "evidence_url": "https://github.com/sonicnext-dev/MarathonRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 664,
+      "stars": 666,
       "pushedAt": "2026-10-13T17:20:17Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -100,8 +100,8 @@
       "evidence_url": "https://github.com/arcanite24/pinyon-shift#readme",
       "exists": true,
       "archived": false,
-      "stars": 463,
-      "pushedAt": "2026-10-13T17:32:01Z",
+      "stars": 478,
+      "pushedAt": "2026-10-13T20:27:24Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
         "Windows",
@@ -130,7 +130,7 @@
       "evidence_url": "https://github.com/fabioap-cpu/Forza-Horizon-2-Recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 4,
+      "stars": 5,
       "pushedAt": "2026-09-03T10:33:44Z",
       "license": null,
       "platforms_mentioned": [
@@ -186,7 +186,7 @@
       "exists": true,
       "archived": false,
       "stars": 0,
-      "pushedAt": "2026-10-13T15:37:52Z",
+      "pushedAt": "2026-10-13T22:20:05Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
         "Windows"
@@ -194,13 +194,13 @@
       "title_mentioned": true,
       "evidence": [
         "An experimental static recompilation of the Xbox 360 version of Forza",
+        "The latest experimental source release adds a graphical settings launcher.",
+        "Screenshots below are from the owner's 2026-10-13 release test session.",
+        "<td><img src=\"docs/screenshots/fm2_CeCql4Ix78.jpg\" alt=\"Car silhouette loading screen\" width=\"100%\"></td",
         "Project status",
         "This is an experimental alpha source release for the European retail game:",
         "Tested host: Windows AMD64 with Direct3D 12",
-        "The longer telemetry run used a locally patched SDK, not the unchanged release pin.",
-        "See [Current status](docs/STATUS.md) for the exact tested boundary.",
-        "Windows 10 or 11 with an x86-64-v3-capable AMD64 CPU",
-        "Visual Studio 2022 Build Tools and a Windows SDK"
+        "confirmed retained progress after save/reload during release testing on"
       ],
       "note": "README evidence only; compatibility and playability are not tested by this agent."
     },
@@ -212,7 +212,7 @@
       "evidence_url": "https://github.com/FableCraze/GoW3R_Windows_Port#readme",
       "exists": true,
       "archived": false,
-      "stars": 7,
+      "stars": 8,
       "pushedAt": "2026-10-12T19:02:26Z",
       "license": "GPL-2.0",
       "platforms_mentioned": [
@@ -240,7 +240,7 @@
       "exists": true,
       "archived": false,
       "stars": 65,
-      "pushedAt": "2026-10-12T11:54:55Z",
+      "pushedAt": "2026-10-13T18:10:59Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
         "Windows",
@@ -294,7 +294,7 @@
       "evidence_url": "https://github.com/florinp93/hells-gate-recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 455,
+      "stars": 457,
       "pushedAt": "2026-10-12T19:18:38Z",
       "license": null,
       "platforms_mentioned": [
