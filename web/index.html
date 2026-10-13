@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ports Lib — Jogos, além do console</title>
+<link rel="stylesheet" href="style.css">
+<header><a href="./" class="brand">◈ PORTS LIB</a><a href="https://github.com/scarin-corporations/ports-lib">Contribuir ↗</a></header>
+<main><p class="eyebrow">DESCOBERTA OPEN SOURCE</p><h1>Jogos, além<br>do console.</h1>
+<p class="intro">Explore projetos que levam jogos de console ao computador.<br>Comunidade, código aberto e novas possibilidades.</p>
+<div id="status" role="status">Carregando catálogo…</div>
+<section class="controls" aria-label="Filtros">
+<input id="search" aria-label="Buscar repositórios" placeholder="Buscar jogo, projeto ou descrição…">
+<select id="console" aria-label="Console"><option value="">Todos os consoles</option><option>PS3</option><option>PS4</option><option>Xbox</option></select>
+<select id="platform" aria-label="Plataforma"><option value="">Todas as plataformas</option><option>Windows</option><option>macOS</option><option>Linux</option></select>
+<select id="kind" aria-label="Tipo"><option value="">Todos os tipos</option><option value="port">Port nativo</option><option value="recompilation">Recompilação</option><option value="emulator">Emulador</option><option value="candidate">Candidato</option></select>
+<select id="sort" aria-label="Ordenação"><option value="score">Relevância</option><option value="stars">Mais estrelas</option><option value="pushedAt">Atividade recente</option></select>
+</section><div class="section-title"><h2>Explore a biblioteca</h2><span id="count"></span></div>
+<p class="note">Candidatos são resultados automáticos, ainda sem revisão. Plataformas e consoles só são confirmados com evidências. Emuladores aparecem como categoria própria.</p>
+<section id="projects" class="grid" aria-label="Repositórios"></section>
+<footer>Índice de código e metadados. Sem ROMs, firmware ou arquivos de jogos. Estrelas não garantem qualidade ou compatibilidade.</footer></main>
+<script type="module" src="app.js"></script></html>

@@ -1,0 +1,18 @@
+{
+  "updatedAt": null,
+  "projects": [],
+  "discovery": {
+    "status": "failed",
+    "candidates": 0
+  },
+  "errors": [
+    "ps3 recompilation: URLError",
+    "ps4 recompilation: URLError",
+    "xbox recompilation: URLError",
+    "ps3 native port: URLError",
+    "ps4 native port: URLError",
+    "xbox native port: URLError",
+    "topic:static-recompilation: URLError",
+    "topic:game-port: URLError"
+  ]
+}

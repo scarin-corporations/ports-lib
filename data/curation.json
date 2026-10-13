@@ -1,0 +1,9 @@
+{
+  "projects": [],
+  "excluded": [],
+  "queries": [
+    "ps3 recompilation", "ps4 recompilation", "xbox recompilation",
+    "ps3 native port", "ps4 native port", "xbox native port",
+    "topic:static-recompilation", "topic:game-port"
+  ]
+}
