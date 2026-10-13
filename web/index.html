@@ -1,20 +1,20 @@
 <!doctype html>
 <html lang="pt-BR">
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ports Lib — Jogos, além do console</title>
+<title>Ports Lib — Games beyond the console</title>
 <link rel="stylesheet" href="style.css">
-<header><a href="./" class="brand">◈ PORTS LIB</a><a href="https://github.com/scarin-corporations/ports-lib">Contribuir ↗</a></header>
-<main><p class="eyebrow">DESCOBERTA OPEN SOURCE</p><h1>Jogos, além<br>do console.</h1>
-<p class="intro">Explore projetos que levam jogos de console ao computador.<br>Comunidade, código aberto e novas possibilidades.</p>
-<div id="status" role="status">Carregando catálogo…</div>
-<section class="controls" aria-label="Filtros">
-<input id="search" aria-label="Buscar repositórios" placeholder="Buscar jogo, projeto ou descrição…">
-<select id="console" aria-label="Console"><option value="">Todos os consoles</option><option>PS3</option><option>PS4</option><option>Xbox</option></select>
-<select id="platform" aria-label="Plataforma"><option value="">Todas as plataformas</option><option>Windows</option><option>macOS</option><option>Linux</option></select>
-<select id="kind" aria-label="Tipo"><option value="">Todos os tipos</option><option value="port">Port nativo</option><option value="recompilation">Recompilação</option><option value="emulator">Emulador</option><option value="candidate">Candidato</option></select>
-<select id="sort" aria-label="Ordenação"><option value="score">Relevância</option><option value="stars">Mais estrelas</option><option value="pushedAt">Atividade recente</option></select>
-</section><div class="section-title"><h2>Explore a biblioteca</h2><span id="count"></span></div>
-<p class="note">Candidatos são resultados automáticos, ainda sem revisão. Plataformas e consoles só são confirmados com evidências. Emuladores aparecem como categoria própria.</p>
-<section id="projects" class="grid" aria-label="Repositórios"></section>
-<footer>Índice de código e metadados. Sem ROMs, firmware ou arquivos de jogos. Estrelas não garantem qualidade ou compatibilidade.</footer></main>
+<header><a href="./" class="brand">◈ PORTS LIB</a><nav><label for="language" data-i18n="languageLabel">Idioma</label> <select id="language" aria-label="Idioma"><option value="pt-BR">Português</option><option value="en">English</option></select> <a href="https://github.com/scarin-corporations/ports-lib" data-i18n="contribute">Contribuir ↗</a></nav></header>
+<main><p class="eyebrow" data-i18n="eyebrow">DESCOBERTA OPEN SOURCE</p><h1 data-i18n="hero">Jogos, além<br>do console.</h1>
+<p class="intro" data-i18n="intro">Explore projetos que levam jogos de console ao computador.<br>Comunidade, código aberto e novas possibilidades.</p>
+<div id="status" role="status" aria-live="polite" data-i18n="loading">Carregando catálogo…</div>
+<section class="controls" aria-label="Filtros" data-i18n-aria="filters">
+<input id="search" data-i18n-placeholder="search" data-i18n-aria="searchAria" aria-label="Buscar repositórios" placeholder="Buscar jogo, projeto ou descrição…">
+<select id="console" data-i18n-aria="consoleAria" aria-label="Console"><option value="" data-i18n="allConsoles">Todos os consoles</option><option>PS3</option><option>PS4</option><option>Xbox</option></select>
+<select id="platform" data-i18n-aria="platformAria" aria-label="Plataforma"><option value="" data-i18n="allPlatforms">Todas as plataformas</option><option>Windows</option><option>macOS</option><option>Linux</option></select>
+<select id="kind" data-i18n-aria="kindAria" aria-label="Tipo"><option value="" data-i18n="allTypes">Todos os tipos</option><option value="port" data-i18n="nativePort">Port nativo</option><option value="recompilation" data-i18n="recompilation">Recompilação</option><option value="emulator" data-i18n="emulator">Emulador</option><option value="candidate" data-i18n="candidate">Candidato</option></select>
+<select id="sort" data-i18n-aria="sortAria" aria-label="Ordenação"><option value="score" data-i18n="relevance">Relevância</option><option value="stars" data-i18n="mostStars">Mais estrelas</option><option value="pushedAt" data-i18n="recentActivity">Atividade recente</option></select>
+</section><div class="section-title"><h2 data-i18n="explore">Explore a biblioteca</h2><span id="count"></span></div>
+<p class="note" data-i18n="note">Candidatos são resultados automáticos, ainda sem revisão. Plataformas e consoles só são confirmados com evidências. Emuladores aparecem como categoria própria.</p>
+<section id="projects" class="grid" aria-label="Repositórios" data-i18n-aria="repositories"></section>
+<footer data-i18n="footer">Índice de código e metadados. Sem ROMs, firmware ou arquivos de jogos. Estrelas não garantem qualidade ou compatibilidade.</footer></main>
 <script type="module" src="app.js"></script></html>

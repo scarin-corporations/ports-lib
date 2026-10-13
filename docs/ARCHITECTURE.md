@@ -6,4 +6,4 @@ GitHub REST → `scripts/sync.py` → `data/catalog.json` → frontend estático
 
 Coleta tem escopo fixo e não executa código dos repositórios encontrados. O navegador não recebe token e usa textContent para conteúdo externo. O ranking combina estrelas acumuladas com decaimento por último push. Não há dados de visitas, tendência histórica ou teste de jogos.
 
-O workflow só coleta/publica fora de PRs; PRs rodam testes. A publicação recebe o catálogo apenas quando a coleta termina sem erros. Processos locais não sobrevivem necessariamente ao snapshot cloud; reinicie o servidor para desenvolver.
+O workflow coleta fora de PRs; PRs rodam testes. Falhas de rede fazem a coleta terminar com erro e preservam catálogo anterior. Pages é opcional até que a organização o habilite: se `configure-pages` não puder ler uma configuração ativa, a coleta continua e o deploy é ignorado. Processos locais não sobrevivem necessariamente ao snapshot cloud; reinicie o servidor para desenvolver.

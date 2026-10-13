@@ -17,15 +17,22 @@ jobs:
     permissions:
       contents: write
       pages: write
+    outputs:
+      pages_configured: ${{ steps.pages.outcome == 'success' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - uses: actions/configure-pages@v5
+        id: pages
         if: github.event_name != 'pull_request'
         with:
-          enablement: true
+          enablement: false
+        continue-on-error: true
+      - name: Report Pages setup requirement
+        if: github.event_name != 'pull_request' && steps.pages.outcome != 'success'
+        run: echo 'Pages is not enabled or cannot be configured by GITHUB_TOKEN. Enable Settings > Pages > Build and deployment > GitHub Actions as an organization owner.'
       - run: python -m unittest discover -s tests -v
       - name: Refresh GitHub metadata
         if: github.event_name != 'pull_request'
@@ -48,7 +55,7 @@ jobs:
         with:
           path: dist
   deploy:
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && needs.build.outputs.pages_configured == 'true'
     needs: build
     runs-on: ubuntu-latest
     permissions:
