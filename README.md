@@ -9,22 +9,22 @@ Browse [games by title](https://scarin-corporations.github.io/ports-lib/web/game
 <!-- BEGIN LIVE CATALOG -->
 <p><a href="https://scarin-corporations.github.io/ports-lib/">Open the Ports Lib app →</a></p>
 
-**722 repositories indexed.** Search matches remain candidates until reviewed.
+**734 repositories indexed.** Search matches remain candidates until reviewed.
 
 ![Top 10 repositories by GitHub stars](data/top-stars.svg)
 
 | # | Repository | Stars | Last push | Status |
 |---:|---|---:|---|---|
-| 1 | [hedge-dev/XenonRecomp](https://github.com/hedge-dev/XenonRecomp) | 6,555 | 2025-08-04 | Candidate |
-| 2 | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) | 5,176 | 2026-06-29 | Reviewed |
-| 3 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,464 | 2026-10-14 | Candidate |
-| 4 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 2,058 | 2026-10-14 | Candidate |
-| 5 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,716 | 2026-10-12 | Reviewed |
-| 6 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 1,669 | 2026-07-05 | Candidate |
-| 7 | [rexglue/rexglue-sdk](https://github.com/rexglue/rexglue-sdk) | 1,067 | 2026-10-02 | Candidate |
-| 8 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 892 | 2026-10-07 | Candidate |
-| 9 | [SlickAmogus/silent-hill-decomp](https://github.com/SlickAmogus/silent-hill-decomp) | 675 | 2026-10-13 | Candidate |
-| 10 | [sonicnext-dev/MarathonRecomp](https://github.com/sonicnext-dev/MarathonRecomp) | 669 | 2026-10-14 | Reviewed |
+| 1 | [hedge-dev/XenonRecomp](https://github.com/hedge-dev/XenonRecomp) | 6,557 | 2025-08-04 | Candidate |
+| 2 | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) | 5,180 | 2026-06-29 | Reviewed |
+| 3 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,477 | 2026-10-14 | Candidate |
+| 4 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 2,358 | 2026-10-14 | Candidate |
+| 5 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,727 | 2026-10-12 | Reviewed |
+| 6 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 1,671 | 2026-07-05 | Candidate |
+| 7 | [rexglue/rexglue-sdk](https://github.com/rexglue/rexglue-sdk) | 1,072 | 2026-10-02 | Candidate |
+| 8 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 896 | 2026-10-07 | Candidate |
+| 9 | [SlickAmogus/silent-hill-decomp](https://github.com/SlickAmogus/silent-hill-decomp) | 674 | 2026-10-15 | Candidate |
+| 10 | [sonicnext-dev/MarathonRecomp](https://github.com/sonicnext-dev/MarathonRecomp) | 670 | 2026-10-14 | Reviewed |
 <!-- END LIVE CATALOG -->
 
 ## Development
