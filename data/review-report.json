@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T04:54:28.838467+00:00",
+  "generatedAt": "2026-10-15T11:44:45.824670+00:00",
   "reviewed": 11,
   "requiringHumanReview": 11,
   "failures": 0,
@@ -13,7 +13,7 @@
       "evidence_url": "https://github.com/hedge-dev/UnleashedRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 5180,
+      "stars": 5183,
       "pushedAt": "2026-06-29T11:05:43Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -42,7 +42,7 @@
       "evidence_url": "https://github.com/LoreanXavier/pt-pc#readme",
       "exists": true,
       "archived": false,
-      "stars": 1727,
+      "stars": 1745,
       "pushedAt": "2026-10-12T17:42:16Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
@@ -71,7 +71,7 @@
       "evidence_url": "https://github.com/sonicnext-dev/MarathonRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 670,
+      "stars": 671,
       "pushedAt": "2026-10-14T17:11:31Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -100,8 +100,8 @@
       "evidence_url": "https://github.com/arcanite24/pinyon-shift#readme",
       "exists": true,
       "archived": false,
-      "stars": 591,
-      "pushedAt": "2026-10-15T04:46:50Z",
+      "stars": 608,
+      "pushedAt": "2026-10-15T08:42:27Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
         "Windows",
@@ -130,7 +130,7 @@
       "evidence_url": "https://github.com/fabioap-cpu/Forza-Horizon-2-Recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 8,
+      "stars": 9,
       "pushedAt": "2026-09-03T10:33:44Z",
       "license": null,
       "platforms_mentioned": [
@@ -157,7 +157,7 @@
       "evidence_url": "https://github.com/deivid22srk/ForzaHorizon2Recomp-Android#readme",
       "exists": true,
       "archived": false,
-      "stars": 4,
+      "stars": 5,
       "pushedAt": "2026-09-15T17:21:17Z",
       "license": "MIT",
       "platforms_mentioned": [
@@ -212,7 +212,7 @@
       "evidence_url": "https://github.com/FableCraze/GoW3R_Windows_Port#readme",
       "exists": true,
       "archived": false,
-      "stars": 12,
+      "stars": 13,
       "pushedAt": "2026-10-12T19:02:26Z",
       "license": "GPL-2.0",
       "platforms_mentioned": [
@@ -239,7 +239,7 @@
       "evidence_url": "https://github.com/faligame/lost-odyssey-hd-remaster#readme",
       "exists": true,
       "archived": false,
-      "stars": 73,
+      "stars": 75,
       "pushedAt": "2026-10-13T18:10:59Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
@@ -267,7 +267,7 @@
       "evidence_url": "https://github.com/LittleBitUA/DownpourRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 280,
+      "stars": 284,
       "pushedAt": "2026-09-02T22:18:50Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
@@ -294,7 +294,7 @@
       "evidence_url": "https://github.com/florinp93/hells-gate-recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 504,
+      "stars": 513,
       "pushedAt": "2026-10-12T19:18:38Z",
       "license": null,
       "platforms_mentioned": [
