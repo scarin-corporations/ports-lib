@@ -9,22 +9,22 @@ Browse [games by title](https://scarin-corporations.github.io/ports-lib/web/game
 <!-- BEGIN LIVE CATALOG -->
 <p><a href="https://scarin-corporations.github.io/ports-lib/">Open the Ports Lib app →</a></p>
 
-**785 repositories indexed.** Search matches remain candidates until reviewed.
+**796 repositories indexed.** Search matches remain candidates until reviewed.
 
 ![Top 10 repositories by GitHub stars](data/top-stars.svg)
 
 | # | Repository | Stars | Last push | Status |
 |---:|---|---:|---|---|
-| 1 | [hedge-dev/XenonRecomp](https://github.com/hedge-dev/XenonRecomp) | 6,555 | 2025-08-04 | Candidate |
-| 2 | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) | 5,193 | 2026-06-29 | Reviewed |
-| 3 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,527 | 2026-10-14 | Candidate |
-| 4 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 3,422 | 2026-10-15 | Candidate |
-| 5 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,824 | 2026-10-16 | Reviewed |
+| 1 | [hedge-dev/XenonRecomp](https://github.com/hedge-dev/XenonRecomp) | 6,554 | 2025-08-04 | Candidate |
+| 2 | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) | 5,196 | 2026-06-29 | Reviewed |
+| 3 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,532 | 2026-10-14 | Candidate |
+| 4 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 3,501 | 2026-10-15 | Candidate |
+| 5 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,842 | 2026-10-16 | Reviewed |
 | 6 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 1,674 | 2026-07-05 | Candidate |
 | 7 | [rexglue/rexglue-sdk](https://github.com/rexglue/rexglue-sdk) | 1,088 | 2026-10-02 | Candidate |
-| 8 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 906 | 2026-10-15 | Candidate |
-| 9 | [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) | 712 | 2026-10-16 | Candidate |
-| 10 | [SlickAmogus/silent-hill-decomp](https://github.com/SlickAmogus/silent-hill-decomp) | 683 | 2026-10-16 | Candidate |
+| 8 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 907 | 2026-10-15 | Candidate |
+| 9 | [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) | 804 | 2026-10-16 | Candidate |
+| 10 | [SlickAmogus/silent-hill-decomp](https://github.com/SlickAmogus/silent-hill-decomp) | 682 | 2026-10-16 | Candidate |
 <!-- END LIVE CATALOG -->
 
 ## Development
