@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T16:50:56.904124+00:00",
+  "generatedAt": "2026-10-16T21:24:11.739294+00:00",
   "reviewed": 11,
   "requiringHumanReview": 11,
   "failures": 0,
@@ -13,7 +13,7 @@
       "evidence_url": "https://github.com/hedge-dev/UnleashedRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 5196,
+      "stars": 5199,
       "pushedAt": "2026-06-29T11:05:43Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -42,7 +42,7 @@
       "evidence_url": "https://github.com/LoreanXavier/pt-pc#readme",
       "exists": true,
       "archived": false,
-      "stars": 1842,
+      "stars": 1858,
       "pushedAt": "2026-10-16T01:12:11Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
@@ -71,8 +71,8 @@
       "evidence_url": "https://github.com/sonicnext-dev/MarathonRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 676,
-      "pushedAt": "2026-10-16T00:21:35Z",
+      "stars": 678,
+      "pushedAt": "2026-10-16T17:55:35Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
         "Windows",
@@ -100,7 +100,7 @@
       "evidence_url": "https://github.com/arcanite24/pinyon-shift#readme",
       "exists": true,
       "archived": false,
-      "stars": 680,
+      "stars": 686,
       "pushedAt": "2026-10-16T04:22:51Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
@@ -130,7 +130,7 @@
       "evidence_url": "https://github.com/fabioap-cpu/Forza-Horizon-2-Recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 10,
+      "stars": 11,
       "pushedAt": "2026-09-03T10:33:44Z",
       "license": null,
       "platforms_mentioned": [
@@ -185,7 +185,7 @@
       "evidence_url": "https://github.com/Alexbeav/forza-motorsport-2-recompilation#readme",
       "exists": true,
       "archived": false,
-      "stars": 0,
+      "stars": 1,
       "pushedAt": "2026-10-13T22:20:05Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
@@ -294,7 +294,7 @@
       "evidence_url": "https://github.com/florinp93/hells-gate-recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 531,
+      "stars": 534,
       "pushedAt": "2026-10-16T11:21:36Z",
       "license": null,
       "platforms_mentioned": [
