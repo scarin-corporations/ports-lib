@@ -9,22 +9,22 @@ Browse [games by title](https://scarin-corporations.github.io/ports-lib/web/game
 <!-- BEGIN LIVE CATALOG -->
 <p><a href="https://scarin-corporations.github.io/ports-lib/">Open the Ports Lib app →</a></p>
 
-**835 repositories indexed.** Search matches remain candidates until reviewed.
+**839 repositories indexed.** Search matches remain candidates until reviewed.
 
 ![Top 10 repositories by GitHub stars](data/top-stars.svg)
 
 | # | Repository | Stars | Last push | Status |
 |---:|---|---:|---|---|
 | 1 | [hedge-dev/XenonRecomp](https://github.com/hedge-dev/XenonRecomp) | 6,565 | 2025-08-04 | Candidate |
-| 2 | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) | 5,203 | 2026-06-29 | Reviewed |
-| 3 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 3,673 | 2026-10-17 | Candidate |
-| 4 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,553 | 2026-10-14 | Candidate |
-| 5 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,893 | 2026-10-16 | Reviewed |
+| 2 | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) | 5,204 | 2026-06-29 | Reviewed |
+| 3 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 3,699 | 2026-10-17 | Candidate |
+| 4 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,559 | 2026-10-14 | Candidate |
+| 5 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,904 | 2026-10-16 | Reviewed |
 | 6 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 1,677 | 2026-07-05 | Candidate |
-| 7 | [rexglue/rexglue-sdk](https://github.com/rexglue/rexglue-sdk) | 1,103 | 2026-10-02 | Candidate |
-| 8 | [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) | 942 | 2026-10-17 | Candidate |
-| 9 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 917 | 2026-10-15 | Candidate |
-| 10 | [arcanite24/pinyon-shift](https://github.com/arcanite24/pinyon-shift) | 709 | 2026-10-17 | Reviewed |
+| 7 | [rexglue/rexglue-sdk](https://github.com/rexglue/rexglue-sdk) | 1,101 | 2026-10-02 | Candidate |
+| 8 | [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) | 963 | 2026-10-17 | Candidate |
+| 9 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 920 | 2026-10-15 | Candidate |
+| 10 | [arcanite24/pinyon-shift](https://github.com/arcanite24/pinyon-shift) | 715 | 2026-10-17 | Reviewed |
 <!-- END LIVE CATALOG -->
 
 ## Development
