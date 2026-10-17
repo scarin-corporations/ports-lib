@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T04:42:20.523103+00:00",
+  "generatedAt": "2026-10-17T10:58:19.026826+00:00",
   "reviewed": 11,
   "requiringHumanReview": 11,
   "failures": 0,
@@ -13,7 +13,7 @@
       "evidence_url": "https://github.com/hedge-dev/UnleashedRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 5200,
+      "stars": 5201,
       "pushedAt": "2026-06-29T11:05:43Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -42,7 +42,7 @@
       "evidence_url": "https://github.com/LoreanXavier/pt-pc#readme",
       "exists": true,
       "archived": false,
-      "stars": 1870,
+      "stars": 1879,
       "pushedAt": "2026-10-16T01:12:11Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
@@ -71,8 +71,8 @@
       "evidence_url": "https://github.com/sonicnext-dev/MarathonRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 678,
-      "pushedAt": "2026-10-16T17:55:35Z",
+      "stars": 680,
+      "pushedAt": "2026-10-17T07:30:02Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
         "Windows",
@@ -100,8 +100,8 @@
       "evidence_url": "https://github.com/arcanite24/pinyon-shift#readme",
       "exists": true,
       "archived": false,
-      "stars": 700,
-      "pushedAt": "2026-10-17T04:03:37Z",
+      "stars": 704,
+      "pushedAt": "2026-10-17T07:35:52Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
         "Windows",
@@ -130,7 +130,7 @@
       "evidence_url": "https://github.com/fabioap-cpu/Forza-Horizon-2-Recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 11,
+      "stars": 12,
       "pushedAt": "2026-09-03T10:33:44Z",
       "license": null,
       "platforms_mentioned": [
@@ -239,7 +239,7 @@
       "evidence_url": "https://github.com/faligame/lost-odyssey-hd-remaster#readme",
       "exists": true,
       "archived": false,
-      "stars": 80,
+      "stars": 81,
       "pushedAt": "2026-10-16T13:55:04Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
@@ -267,7 +267,7 @@
       "evidence_url": "https://github.com/LittleBitUA/DownpourRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 299,
+      "stars": 300,
       "pushedAt": "2026-09-02T22:18:50Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
@@ -294,7 +294,7 @@
       "evidence_url": "https://github.com/florinp93/hells-gate-recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 541,
+      "stars": 548,
       "pushedAt": "2026-10-16T11:21:36Z",
       "license": null,
       "platforms_mentioned": [
