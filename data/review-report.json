@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T16:01:49.076033+00:00",
+  "generatedAt": "2026-10-18T20:56:59.757491+00:00",
   "reviewed": 11,
   "requiringHumanReview": 11,
   "failures": 0,
@@ -13,7 +13,7 @@
       "evidence_url": "https://github.com/hedge-dev/UnleashedRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 5218,
+      "stars": 5220,
       "pushedAt": "2026-06-29T11:05:43Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -42,8 +42,8 @@
       "evidence_url": "https://github.com/LoreanXavier/pt-pc#readme",
       "exists": true,
       "archived": false,
-      "stars": 1936,
-      "pushedAt": "2026-10-16T01:12:11Z",
+      "stars": 1949,
+      "pushedAt": "2026-10-18T19:44:51Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
         "Windows",
@@ -57,9 +57,9 @@
         "and SteamOS), or macOS 14 or newer on an Apple silicon or Intel Mac.",
         "A GPU and driver with Vulkan 1.3; on macOS the port brings MoltenVK, which runs Vulkan on Metal. The optional",
         "ray-traced shadows, ambient occlusion and reflections need a GPU with Vulkan ray queries (not on macOS). DLSS needs a",
-        "GeForce RTX card; FSR and XeSS run on any recent GPU (Windows only). The settings page greys out what your machine",
         "Download the installer from the Releases page: `P.T.PC.Port.Setup.exe` on Windows, the Linux setup binary on Linux.",
-        "Point it at your dump folder or fake PKG and at a destination folder (the default on Windows is"
+        "Point it at your dump folder or fake PKG and at a destination folder (the default on Windows is",
+        "Linux: `chmod +x` the setup and run it from a terminal. The game needs only glibc and the system's Vulkan driver. On a Steam Deck"
       ],
       "note": "README evidence only; compatibility and playability are not tested by this agent."
     },
@@ -71,8 +71,8 @@
       "evidence_url": "https://github.com/sonicnext-dev/MarathonRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 684,
-      "pushedAt": "2026-10-18T11:45:49Z",
+      "stars": 685,
+      "pushedAt": "2026-10-18T17:04:13Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
         "Windows",
@@ -100,8 +100,8 @@
       "evidence_url": "https://github.com/arcanite24/pinyon-shift#readme",
       "exists": true,
       "archived": false,
-      "stars": 749,
-      "pushedAt": "2026-10-18T09:00:03Z",
+      "stars": 754,
+      "pushedAt": "2026-10-18T20:18:44Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
         "Windows",
@@ -212,7 +212,7 @@
       "evidence_url": "https://github.com/FableCraze/GoW3R_Windows_Port#readme",
       "exists": true,
       "archived": false,
-      "stars": 16,
+      "stars": 17,
       "pushedAt": "2026-10-12T19:02:26Z",
       "license": "GPL-2.0",
       "platforms_mentioned": [
@@ -269,7 +269,7 @@
       "evidence_url": "https://github.com/LittleBitUA/DownpourRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 306,
+      "stars": 307,
       "pushedAt": "2026-09-02T22:18:50Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
@@ -296,7 +296,7 @@
       "evidence_url": "https://github.com/florinp93/hells-gate-recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 584,
+      "stars": 587,
       "pushedAt": "2026-10-16T11:21:36Z",
       "license": null,
       "platforms_mentioned": [
