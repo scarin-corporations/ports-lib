@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T04:48:10.472567+00:00",
+  "generatedAt": "2026-10-18T11:23:38.563645+00:00",
   "reviewed": 11,
   "requiringHumanReview": 11,
   "failures": 0,
@@ -13,7 +13,7 @@
       "evidence_url": "https://github.com/hedge-dev/UnleashedRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 5209,
+      "stars": 5215,
       "pushedAt": "2026-06-29T11:05:43Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -42,7 +42,7 @@
       "evidence_url": "https://github.com/LoreanXavier/pt-pc#readme",
       "exists": true,
       "archived": false,
-      "stars": 1920,
+      "stars": 1925,
       "pushedAt": "2026-10-16T01:12:11Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
@@ -100,8 +100,8 @@
       "evidence_url": "https://github.com/arcanite24/pinyon-shift#readme",
       "exists": true,
       "archived": false,
-      "stars": 726,
-      "pushedAt": "2026-10-17T20:41:08Z",
+      "stars": 739,
+      "pushedAt": "2026-10-18T09:00:03Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
         "Windows",
@@ -185,7 +185,7 @@
       "evidence_url": "https://github.com/Alexbeav/forza-motorsport-2-recompilation#readme",
       "exists": true,
       "archived": false,
-      "stars": 1,
+      "stars": 2,
       "pushedAt": "2026-10-13T22:20:05Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
@@ -212,7 +212,7 @@
       "evidence_url": "https://github.com/FableCraze/GoW3R_Windows_Port#readme",
       "exists": true,
       "archived": false,
-      "stars": 15,
+      "stars": 16,
       "pushedAt": "2026-10-12T19:02:26Z",
       "license": "GPL-2.0",
       "platforms_mentioned": [
@@ -238,24 +238,26 @@
       "approved": false,
       "evidence_url": "https://github.com/faligame/lost-odyssey-hd-remaster#readme",
       "exists": true,
-      "archived": false,
+      "archived": true,
       "stars": 84,
-      "pushedAt": "2026-10-16T13:55:04Z",
+      "pushedAt": "2026-10-18T10:30:05Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
         "Windows",
-        "Linux"
+        "Linux",
+        "macOS",
+        "Android"
       ],
       "title_mentioned": true,
       "evidence": [
-        "Status:** v0.0.1 test build — playable, with many known bugs · source open (MIT) · bring your own discs",
+        "Our friends at **[Lost Odyssey Recomp](https://github.com/freefrank/LostOdysseyRecomp)** have already achieved what we were aiming for, and more: a native port that is already at version 1.0, runs on Windows, Linux, macOS and Android, and h",
+        "Thank you to everyone who tested it and reported issues.",
         "Lost Odyssey came out on Xbox 360 in 2007 and never left it. This project rebuilds the original game code as a real Windows program — **not an emulator** — and then gives it what a remaster would.",
         "Compatible game version and tested hardware",
         "Works with the **\"USA, Europe\" release of Lost Odyssey (Xbox 360), all four discs** — the multi-language one: English, Japanese, French, German, Spanish and Italian. The installer checks your discs against known hashes; the Asian edition is",
         "Everything was tuned on **one PC** (Windows 11, Core i9-10850K, 32 GB RAM, GeForce RTX 3080 10 GB). It has not been tested on anything else, so other hardware may behave differently. Details: [Compatibility and test hardware](docs/compatibi",
         "| **Playable** | Yes — long sessions, saves, achievements, cutscenes |",
-        "| **Linux** | Planned, not built yet |",
-        "The honest part: every crash we know of is fixed, but nobody has played this build from the first minute to the credits yet. The sharp-interface layer is newest on Vulkan, and some 3D scales (×1.25, ×1.75 and other quarter steps) have only "
+        "| **Linux** | Planned, not built yet |"
       ],
       "note": "README evidence only; compatibility and playability are not tested by this agent."
     },
@@ -267,7 +269,7 @@
       "evidence_url": "https://github.com/LittleBitUA/DownpourRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 301,
+      "stars": 304,
       "pushedAt": "2026-09-02T22:18:50Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
@@ -294,7 +296,7 @@
       "evidence_url": "https://github.com/florinp93/hells-gate-recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 571,
+      "stars": 579,
       "pushedAt": "2026-10-16T11:21:36Z",
       "license": null,
       "platforms_mentioned": [

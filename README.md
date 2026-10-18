@@ -9,22 +9,22 @@ Browse [games by title](https://scarin-corporations.github.io/ports-lib/web/game
 <!-- BEGIN LIVE CATALOG -->
 <p><a href="https://scarin-corporations.github.io/ports-lib/">Open the Ports Lib app →</a></p>
 
-**859 repositories indexed.** Search matches remain candidates until reviewed.
+**871 repositories indexed.** Search matches remain candidates until reviewed.
 
 ![Top 10 repositories by GitHub stars](data/top-stars.svg)
 
 | # | Repository | Stars | Last push | Status |
 |---:|---|---:|---|---|
-| 1 | [hedge-dev/XenonRecomp](https://github.com/hedge-dev/XenonRecomp) | 6,566 | 2025-08-04 | Candidate |
-| 2 | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) | 5,209 | 2026-06-29 | Reviewed |
-| 3 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 3,738 | 2026-10-17 | Candidate |
-| 4 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,565 | 2026-10-14 | Candidate |
-| 5 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,920 | 2026-10-16 | Reviewed |
-| 6 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 1,678 | 2026-07-05 | Candidate |
-| 7 | [rexglue/rexglue-sdk](https://github.com/rexglue/rexglue-sdk) | 1,103 | 2026-10-02 | Candidate |
-| 8 | [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) | 997 | 2026-10-17 | Candidate |
-| 9 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 924 | 2026-10-15 | Candidate |
-| 10 | [arcanite24/pinyon-shift](https://github.com/arcanite24/pinyon-shift) | 726 | 2026-10-17 | Reviewed |
+| 1 | [hedge-dev/XenonRecomp](https://github.com/hedge-dev/XenonRecomp) | 6,567 | 2025-08-04 | Candidate |
+| 2 | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) | 5,215 | 2026-06-29 | Reviewed |
+| 3 | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 3,771 | 2026-10-17 | Candidate |
+| 4 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | 3,570 | 2026-10-14 | Candidate |
+| 5 | [LoreanXavier/pt-pc](https://github.com/LoreanXavier/pt-pc) | 1,925 | 2026-10-16 | Reviewed |
+| 6 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 1,680 | 2026-07-05 | Candidate |
+| 7 | [rexglue/rexglue-sdk](https://github.com/rexglue/rexglue-sdk) | 1,104 | 2026-10-02 | Candidate |
+| 8 | [AjncSystem/ShadowOfTheColossus-PC](https://github.com/AjncSystem/ShadowOfTheColossus-PC) | 1,023 | 2026-10-17 | Candidate |
+| 9 | [Sebastrion/awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) | 926 | 2026-10-15 | Candidate |
+| 10 | [EstebanPdN/zelda-tmc-3ds](https://github.com/EstebanPdN/zelda-tmc-3ds) | 756 | 2026-10-18 | Candidate |
 <!-- END LIVE CATALOG -->
 
 ## Development
