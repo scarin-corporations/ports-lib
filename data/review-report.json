@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T13:36:40.966268+00:00",
+  "generatedAt": "2026-10-19T22:31:59.456395+00:00",
   "reviewed": 11,
   "requiringHumanReview": 11,
   "failures": 0,
@@ -13,7 +13,7 @@
       "evidence_url": "https://github.com/hedge-dev/UnleashedRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 5226,
+      "stars": 5229,
       "pushedAt": "2026-06-29T11:05:43Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -42,8 +42,8 @@
       "evidence_url": "https://github.com/LoreanXavier/pt-pc#readme",
       "exists": true,
       "archived": false,
-      "stars": 1981,
-      "pushedAt": "2026-10-18T21:35:59Z",
+      "stars": 1997,
+      "pushedAt": "2026-10-19T18:16:56Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
         "Windows",
@@ -71,7 +71,7 @@
       "evidence_url": "https://github.com/sonicnext-dev/MarathonRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 689,
+      "stars": 690,
       "pushedAt": "2026-10-19T11:15:44Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -100,8 +100,8 @@
       "evidence_url": "https://github.com/arcanite24/pinyon-shift#readme",
       "exists": true,
       "archived": false,
-      "stars": 776,
-      "pushedAt": "2026-10-19T04:46:41Z",
+      "stars": 788,
+      "pushedAt": "2026-10-19T22:19:07Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
         "Windows",
@@ -269,7 +269,7 @@
       "evidence_url": "https://github.com/LittleBitUA/DownpourRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 309,
+      "stars": 312,
       "pushedAt": "2026-09-02T22:18:50Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
@@ -296,7 +296,7 @@
       "evidence_url": "https://github.com/florinp93/hells-gate-recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 591,
+      "stars": 598,
       "pushedAt": "2026-10-16T11:21:36Z",
       "license": null,
       "platforms_mentioned": [
