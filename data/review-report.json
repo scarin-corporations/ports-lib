@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T05:04:30.219872+00:00",
+  "generatedAt": "2026-10-20T11:53:05.518696+00:00",
   "reviewed": 11,
   "requiringHumanReview": 11,
   "failures": 0,
@@ -13,7 +13,7 @@
       "evidence_url": "https://github.com/hedge-dev/UnleashedRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 5228,
+      "stars": 5230,
       "pushedAt": "2026-06-29T11:05:43Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -42,7 +42,7 @@
       "evidence_url": "https://github.com/LoreanXavier/pt-pc#readme",
       "exists": true,
       "archived": false,
-      "stars": 2010,
+      "stars": 2020,
       "pushedAt": "2026-10-19T18:16:56Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
@@ -72,7 +72,7 @@
       "exists": true,
       "archived": false,
       "stars": 690,
-      "pushedAt": "2026-10-19T11:15:44Z",
+      "pushedAt": "2026-10-20T11:01:19Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
         "Windows",
@@ -100,7 +100,7 @@
       "evidence_url": "https://github.com/arcanite24/pinyon-shift#readme",
       "exists": true,
       "archived": false,
-      "stars": 790,
+      "stars": 799,
       "pushedAt": "2026-10-20T00:11:39Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
@@ -269,7 +269,7 @@
       "evidence_url": "https://github.com/LittleBitUA/DownpourRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 313,
+      "stars": 314,
       "pushedAt": "2026-09-02T22:18:50Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
@@ -296,7 +296,7 @@
       "evidence_url": "https://github.com/florinp93/hells-gate-recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 604,
+      "stars": 605,
       "pushedAt": "2026-10-16T11:21:36Z",
       "license": null,
       "platforms_mentioned": [
