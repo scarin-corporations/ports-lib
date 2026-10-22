@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T05:04:51.114312+00:00",
+  "generatedAt": "2026-10-22T12:07:56.093953+00:00",
   "reviewed": 11,
   "requiringHumanReview": 11,
   "failures": 0,
@@ -13,7 +13,7 @@
       "evidence_url": "https://github.com/hedge-dev/UnleashedRecomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 5246,
+      "stars": 5245,
       "pushedAt": "2026-06-29T11:05:43Z",
       "license": "GPL-3.0",
       "platforms_mentioned": [
@@ -42,7 +42,7 @@
       "evidence_url": "https://github.com/LoreanXavier/pt-pc#readme",
       "exists": true,
       "archived": false,
-      "stars": 2088,
+      "stars": 2096,
       "pushedAt": "2026-10-19T18:16:56Z",
       "license": "NOASSERTION",
       "platforms_mentioned": [
@@ -100,7 +100,7 @@
       "evidence_url": "https://github.com/arcanite24/pinyon-shift#readme",
       "exists": true,
       "archived": false,
-      "stars": 852,
+      "stars": 857,
       "pushedAt": "2026-10-21T22:49:43Z",
       "license": "BSD-3-Clause",
       "platforms_mentioned": [
@@ -212,7 +212,7 @@
       "evidence_url": "https://github.com/FableCraze/GoW3R_Windows_Port#readme",
       "exists": true,
       "archived": false,
-      "stars": 17,
+      "stars": 18,
       "pushedAt": "2026-10-12T19:02:26Z",
       "license": "GPL-2.0",
       "platforms_mentioned": [
@@ -296,7 +296,7 @@
       "evidence_url": "https://github.com/florinp93/hells-gate-recomp#readme",
       "exists": true,
       "archived": false,
-      "stars": 637,
+      "stars": 639,
       "pushedAt": "2026-10-16T11:21:36Z",
       "license": null,
       "platforms_mentioned": [
